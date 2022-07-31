@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+main{
+    margin-top: 10%;
+}
+
+.text-center{
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 15px;
+    color: hsl(201, 11%, 66%);
+}
+h2{
+    font-size: 21pt;
+}
+header{
+    margin-bottom: 120px;
+}
+header h1{
+    font-size: 30pt;
+    margin-top: 30px;
+}
+header p{
+    width: 36%;
+    margin: 20px auto 35px;
+}
+header a:first-of-type{
+    padding: 15px 20px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 2px 1px 20px hsl(171, 66%, 44%, 0.3);
+}
+header a:first-of-type:hover{
+    opacity: 70%;
+}
+header a:last-of-type{
+    padding: 15px 20px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 2px 1px 20px hsl(233, 100%, 69%, 0.3);
+}
+header a:last-of-type:hover{
+    opacity: 70%;
+}
+.snippets-head p{
+    width: 40%;
+    margin: 20px auto 60px;
+}
+.snippets-points{
+    display: flex;
+    margin-bottom: 120px;
+}
+.snippets-points img{
+    margin-left: -90px;
+}
+.snip-points{
+    width: 55%;
+    margin: 65px 0 50px 100px;
+}
+.snip-points h4{
+    font-size: 15pt;
+}
+.access{
+    margin-bottom: 80px;
+}
+.access p{
+    width: 48%;
+    margin: 20px auto 80px;
+}
+.workflow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    margin: 80px 0 140px;
+}
+.workflow-points{
+    text-align: center;
+    width: 26%;
+}
+.workflow-points img{
+    margin-bottom: 20px;
+}
+.logo-corp{
+    padding: 0 70px;
+    margin-bottom: 140px;
+}
+.logo-corp img{
+    margin: 0 45px;
+}
+.download-links{
+    margin-bottom: 140px;
+}
+.download-links p{
+    width: 46%;
+    margin: 20px auto 40px;
+}
+.download-links a:first-of-type{
+    padding: 15px 20px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 2px 1px 20px hsl(171, 66%, 44%, 0.3);
+}
+.download-links a:first-of-type:hover{
+    opacity: 70%;
+}
+.download-links a:last-of-type{
+    padding: 15px 20px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 5px;
+    box-shadow: 2px 1px 20px hsl(233, 100%, 69%, 0.3);
+}
+.download-links a:last-of-type:hover{
+    opacity: 70%;
+}
+footer{
+    background-color: hsla(201, 11%, 66%, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    height: 120px;
+}
+footer img:first-of-type{
+    margin-left: 50px;
+    margin-right: -500px;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+    height: 80px;
+}
+footer ul li{
+    font-size: 18px;
+    margin: 0 80px 15px 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover{
+    color: hsl(171, 66%, 44%);
+}
+footer .icons img{
+    margin: 8px;
+}
+.fa-icon:hover{
+    color: hsl(233, 100%, 69%) !important;
+}
+
+@media (max-width: 600px) {
+    html{
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+    p{
+        font-size: 15px;
+        line-height: 1.5em;
+        margin-top: 15px;
+    }
+    h2{
+        font-size: 20pt;
+        width: 90%;
+    }
+    h4{
+        font-size: 15pt;
+    }
+    header{
+        margin-bottom: 120px;
+        padding: 0 auto;
+    }
+    header img{
+        height: 90px;
+        margin: 5% auto;
+    }
+    header h1{
+        margin: 15px auto;
+        font-size: 22pt;
+    }
+    header p{
+        width: 80%;
+        margin: 20px auto 35px;
+    }
+    .download-btn{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .download-btn a{
+        margin-bottom: 15px !important;
+    }
+    .snippets-head h2{
+        margin: 15px auto;
+    }
+    .snippets-head p{
+        width: 80%;
+        margin: 15px auto;
+    }
+    .snippets-points{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    .snippets-points img{
+        height: 150px;
+        margin: 50px auto 20px;
+    }
+    .snippet-points-lg{
+        margin: 50px auto;
+        text-align: center;
+    }
+    .snip-points{
+        margin: 30px auto;
+        text-align: center;
+        width: 80%;
+    }
+    .snip-points h4{
+        font-size: 20px;
+    }
+    .access{
+        margin-top: 60px;
+    }
+    .access h2{
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    .access p{
+        width: 80%;
+    }
+    .access img{
+        height: 150px;
+        margin: 0 auto 50px;
+    }
+    .workflow-sm{
+        text-align: center;
+    }
+    .workflow-sm h2{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .workflow-sm p{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .workflow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .workflow-points{
+        margin: 25px auto;
+        width: 90%;
+    }
+    .logo-corp{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 80px;
+    }
+    .logo-corp img{
+        height: 40px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .download-links h1{
+        font-size: 30px;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .download-links p{
+        width: 80%;
+    }
+    footer{
+        background-color: hsla(201, 11%, 66%, 0.2);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px auto;
+        height: 450px;
+    }
+    footer img:first-of-type{
+        margin: 0;
+    }
+    footer ul{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        list-style: none;
+        margin: 20px auto 100px;
+        height: 140px;
+    }
+    #img-clip{
+        height: 60px;
+        width: 60px;
+        margin: 10px auto;
+    }
+    footer ul li{
+        font-size: 18px;
+        margin: 10px auto;
+    }
+    .icons a{
+        margin: 0 5%;
+    }
+    
+}
+@media (max-width: 315px) {
+    footer{
+        height: 500px;
+    }
+    footer ul{
+        height: 180px;
+    }
+}
